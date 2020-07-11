@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Football League</string>
+
+    <string-array name="leagueNames">
+        <item>English Premier League</item>
+        <item>French Ligue 1</item>
+        <item>German Bundesliga</item>
+        <item>Italian Serie A</item>
+        <item>Spanish La Liga</item>
+        <item>American Mayor League</item>
+        <item>Portuguese Premiera Liga</item>
+        <item>Australian A League</item>
+        <item>Scottish Premier League</item>
+        <item>English League 1</item>
+    </string-array>
+
+    <integer-array name="leagueIDs">
+        <item>4328</item>
+        <item>4334</item>
+        <item>4331</item>
+        <item>4332</item>
+        <item>4335</item>
+        <item>4346</item>
+        <item>4344</item>
+        <item>4356</item>
+        <item>4330</item>
+        <item>4396</item>
+    </integer-array>
+
+    <string-array name="leagueImages">
+        <item>@drawable/english_premier_league</item>
+        <item>@drawable/french_ligue_1</item>
+        <item>@drawable/german_bundesliga</item>
+        <item>@drawable/italian_serie_a</item>
+        <item>@drawable/spanish_la_liga</item>
+        <item>@drawable/american_mayor_league</item>
+        <item>@drawable/portuguese_premiera_liga</item>
+        <item>@drawable/australian_a_league</item>
+        <item>@drawable/scottish_premier_league</item>
+        <item>@drawable/english_league_1</item>
+    </string-array>
+
+    <string name="search_match">Search…</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="separator">:</string>
+    <string name="ft">FT</string>
+    <string name="network_error_try_again_in_few_minutes">Error occurred, try again in few minutes…</string>
+    <string name="match_info">Match info</string>
+    <string name="formation">Formation</string>
+    <string name="red_cards">Red cards</string>
+    <string name="yellow_cards">Yellow cards</string>
+    <string name="shots">Shots</string>
+    <string name="goal_scorers">Goal scorers</string>
+    <string name="home_team">Home team</string>
+    <string name="goalkeeper">Goalkeeper</string>
+    <string name="defense">Defense</string>
+    <string name="midfield">Midfield</string>
+    <string name="forward">Forward</string>
+    <string name="substitutes">Substitutes</string>
+    <string name="away_team">Away team</string>
+    <string name="H">(H)</string>
+    <string name="A">(A)</string>
+    <string name="no_address_found">No address found</string>
+    <string name="no_acocunt_found">No account found</string>
+    <string name="favorite_match_not_found">Favorite match not found…</string>
+    <string name="favorite_team_not_found">Favorite team not found…</string>
+    <string name="club_badge">Club badge</string>
+    <string name="fav_logo">fav logo</string>
+    <string name="league_badge">league badge</string>
+    <string name="web_logo">web logo</string>
+    <string name="facebook_logo">facebook logo</string>
+    <string name="twitter_logo">twitter logo</string>
+    <string name="youtube_logo">youtube logo</string>
+    <string name="team_badge">team badge</string>
+    <string name="team">Team</string>
+    <string name="mp">MP</string>
+    <string name="w">W</string>
+    <string name="d">D</string>
+    <string name="l">L</string>
+    <string name="gf">GF</string>
+    <string name="ga">GA</string>
+    <string name="gd">GD</string>
+    <string name="pts">Pts</string>
+    <string name="next_match">Next match</string>
+    <string name="last_match">Last match</string>
+    <string name="alias">Nickname:</string>
+    <string name="year_formed">Year formed:</string>
+    <string name="stadium_thumb">stadium_thumb</string>
+    <string name="stadium_name">Stadium name:</string>
+    <string name="stadium_capacity">Stadium capacity:</string>
+    <string name="stadium_location">Stadium location:</string>
+    <string name="nickname">Nickname:</string>
+    <string name="coming_soon">Coming soon…</string>
+    <string name="data_not_found">Data not found</string>
+
+</resources>

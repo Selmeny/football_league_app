@@ -1,0 +1,144 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 2,
+    "identityHash": "1e8fdd5cf97cb9ddf88a353f44d8bed7",
+    "entities": [
+      {
+        "tableName": "favoriteMatch",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`matchType` TEXT, `matchId` TEXT, `favoriteDate` TEXT, `favoriteTime` TEXT, `favoriteHomeTeam` TEXT, `favoriteAwayTeam` TEXT, `favoriteHomeScore` TEXT, `favoriteAwayScore` TEXT, `homeId` TEXT, `awayId` TEXT, `id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "matchType",
+            "columnName": "matchType",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "matchId",
+            "columnName": "matchId",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "matchDate",
+            "columnName": "favoriteDate",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "matchTime",
+            "columnName": "favoriteTime",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "homeTeam",
+            "columnName": "favoriteHomeTeam",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "awayTeam",
+            "columnName": "favoriteAwayTeam",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "homeScore",
+            "columnName": "favoriteHomeScore",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "awayScore",
+            "columnName": "favoriteAwayScore",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "homeId",
+            "columnName": "homeId",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "awayId",
+            "columnName": "awayId",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "id"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "favoriteTeam",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`favoriteTeamId` TEXT, `favoriteTeamBadge` TEXT, `favoriteTeamName` TEXT, `favoriteTeamYearFormed` TEXT, `favoriteTeamNickname` TEXT, `id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "teamID",
+            "columnName": "favoriteTeamId",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "teamBadge",
+            "columnName": "favoriteTeamBadge",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "teamName",
+            "columnName": "favoriteTeamName",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "teamFormed",
+            "columnName": "favoriteTeamYearFormed",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "teamNickname",
+            "columnName": "favoriteTeamNickname",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "id"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '1e8fdd5cf97cb9ddf88a353f44d8bed7')"
+    ]
+  }
+}
