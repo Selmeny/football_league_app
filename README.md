@@ -9,7 +9,7 @@ Here are the main features that i use in this project:
 - Kotlin coroutines
 - MVP
 
-Screenshots:
+Pictures:
 
 <img src="https://github.com/Selmeny/football_league_app/blob/master/app/src/main/res/drawable/screenshot_1.png" width="200"> <img src="https://github.com/Selmeny/football_league_app/blob/master/app/src/main/res/drawable/screenshot_2.png" width="200"> <img src="https://github.com/Selmeny/football_league_app/blob/master/app/src/main/res/drawable/screenshot_3.png" width="200"> <img src="https://github.com/Selmeny/football_league_app/blob/master/app/src/main/res/drawable/screenshot_4.png" width="200">
 
